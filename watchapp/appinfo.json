@@ -1,0 +1,25 @@
+{
+    "versionLabel": "1.0",
+    "uuid": "6679691e-09e3-41cf-a082-41230db5a0f5",
+    "appKeys": {},
+    "longName": "Pebble GSlides",
+    "versionCode": 1,
+    "capabilities": [
+        ""
+    ],
+    "shortName": "GSlides",
+    "companyName": "thiemoall@gmail.com",
+    "watchapp": {
+        "watchface": false
+    },
+    "resources": {
+        "media": [
+            {
+                "menuIcon": true,
+                "type": "png",
+                "name": "MENU_ICON",
+                "file": "images/icon.png"
+            }
+        ]
+    }
+}

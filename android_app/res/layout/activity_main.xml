@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="159dp"
+        android:text="Not Running"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ToggleButton	
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="40dip"
+    	android:paddingRight="40dip"
+        android:background="@drawable/toggle_selector"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="57dp"
+        android:textColor="#ffffff"
+        android:text="ToggleButton" />
+
+
+    <Button
+        android:id="@+id/buttonPrev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_selector"
+        android:layout_alignLeft="@+id/textViewHelper"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="65dp"
+        android:textSize="30dp"
+        android:text="&#x25C0;" />
+
+    <Button
+        android:id="@+id/buttonNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_selector"
+        android:layout_alignBaseline="@+id/buttonPrev"
+        android:layout_alignBottom="@+id/buttonPrev"
+        android:layout_alignRight="@+id/textViewHelper"
+        android:layout_marginRight="65dp"
+        android:textSize="30dp"
+        android:text="&#x25B6;" />
+
+    <TextView
+        android:id="@+id/textViewHelper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="31dp"
+        android:gravity="center"
+        android:text="Start the service and connect your phone to Chrome through the Pebble gSlides Chrome extension."
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>
